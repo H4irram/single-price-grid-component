@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-lightGray font-karla">
+    <main>
+      <section class="flex h-screen items-center">
+        <div class="container mx-auto px-6 py-12">
+          <div
+            class="mx-auto grid max-w-[550px] grid-cols-1 md:grid-cols-2 md:grid-rows-2"
+          >
+            <div
+              class="flex flex-col space-y-2 rounded-t-md bg-[#fff] px-6 py-8 sm:col-span-1 md:col-span-2 md:space-y-4"
+            >
+              <h1 class="text-cyan text-xl font-[700]">Join our community</h1>
+              <h2 class="text-brightYellow text-md font-[400] leading-6">
+                30-day, hassle-free money back guarantee
+              </h2>
+              <p class="text-grayishBlue text-sm leading-relaxed">
+                Gain access to our full library of tutorials along with expert
+                code reviews. Perfect for any developers who are serious about
+                honing their skills.
+              </p>
+            </div>
+
+            <div
+              class="bg-cyan text- flex flex-col justify-between space-y-4 p-6 md:rounded-bl-md"
+            >
+              <h2 class="text-xl font-[400] text-[#fff]">
+                Monthly Subscription
+              </h2>
+              <div class="space-y-1">
+                <p class="text-lightGray ml-2 flex items-center text-sm">
+                  <span class="mr-2 text-3xl font-[400] text-[#fff]"
+                    >&dollar;29 </span
+                  >per month
+                </p>
+                <p class="text-lightGray text-sm font-[400] leading-loose">
+                  Full access for less than &dollar;1 a day
+                </p>
+              </div>
+              <button
+                class="bg-brightYellow rounded-md py-2 text-[#fff] shadow-xl"
+              >
+                Sign Up
+              </button>
+            </div>
+            <div
+              class="bg-lightCyan space-y-4 rounded-b-md p-6 text-[#fff] md:rounded-b-none md:rounded-br-md"
+            >
+              <h2 class="text-xl font-[400]">Why Us</h2>
+              <p class="text-lightGray w-48 text-sm">
+                Tutorials by industry experts Peer &amp; expert code review
+                Coding exercises Access to our GitHub repos Community forum
+                Flashcard decks New videos every week
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
